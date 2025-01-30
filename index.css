@@ -1,3 +1,10 @@
 .banner{
     background: linear-gradient(#FFFFFF, #EFEBE3);
 }
+
+@media screen and (max-width:576px) {
+    .banner ul{
+        display: none;
+    }
+    
+}

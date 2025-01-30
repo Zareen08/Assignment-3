@@ -15,7 +15,7 @@
     <header class="md:container mx-auto">
         <nav class="flex justify-between align-center">
             <div class="logo ">
-                <svg width="359" height="44" viewBox="0 0 359 44" fill="none" xmlns="http://www.w3.org/2000/svg" class="sm:hidden block ms-5 ">
+                <svg width="359" height="44" viewBox="0 0 359 44" fill="none" xmlns="http://www.w3.org/2000/svg" class="sm:hidden block  ">
                     <path d="M45.9 14.3C45.7 13.9 45.2 13.8 44.8 14C42.6 15.5 37.1 17.2 37.1 17.2C17.5 22.2 25.8 43.5 25.8 43.5C35.3 44.3 44.3 42.3 48 32.2C50.8 24.2 47.2 16.6 45.9 14.3Z" fill="#638B3F"/>
                     <path d="M25.7001 43.5C25.7001 42.5 29.2001 29.2 41.3001 22.8C41.3001 22.8 30.1001 32.8 25.7001 43.5Z" fill="#82AF58"/>
                     <path d="M8.99999 0.699994C9.39999 0.299994 9.99999 0.299994 10.4 0.699994C12.8 3.19999 19.2 7.09999 19.2 7.09999C42.4 19.2 25.7 43.6 25.7 43.6C13.4 41.9 2.69999 36.7 1.09999 22.8C-0.100015 11.8 6.59999 3.29999 8.99999 0.699994Z" fill="#88C057"/>
@@ -25,11 +25,15 @@
                     
                 <img src="./B11-A3-Living-Lab-main/Assignment_03_Category_0002/c2-assets/logo-header.png" alt="logo" class="md:block hidden me-5 p-4">
             </div>
-            <ul class="flex  p-5 me-5 ms-5 sm: block hidden">
-                <li class="me-5 ms-5"><a href="#">Product</a></li>
-                <li class="me-5 ms-5"><a href="#">Services</a></li>
-                <li class="me-5 ms-5"><a href="#">Contact Us</a></li>
-            </ul>
+
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li ><a href="#">Product</a></li>
+                    <li ><a href="#">Services</a></li>
+                    <li ><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            
            
                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="mt-5     me-5 ms-5">
                     <g clip-path="url(#clip0_2_51)">
@@ -51,7 +55,7 @@
                 
                                             
                 <button class="btn btn-outline">Login</button>
-                <button class="btn btn-success hover: btn btn-outline">Resister</button>
+                <button class="btn btn-success">Resister</button>
             </div>
         </nav>
     </header>
