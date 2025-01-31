@@ -1,7 +1,7 @@
 .banner{
     background: linear-gradient(#FFFFFF, #EFEBE3);
 }
-.card{
+.card, .products{
     background-color: #EFEBE3;
 }
  .card img{
