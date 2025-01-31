@@ -1,10 +1,10 @@
 .banner{
     background: linear-gradient(#FFFFFF, #EFEBE3);
 }
-
-@media screen and (max-width:576px) {
-    .banner ul{
-        display: none;
-    }
-    
+.card{
+    background-color: #EFEBE3;
 }
+ .card img{
+    background-color: #f8fafc;
+    border-radius: 50%;
+ }
